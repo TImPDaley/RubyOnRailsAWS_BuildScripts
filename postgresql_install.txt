@@ -1,0 +1,25 @@
+#!/bin/bash
+## ASSUME postgresql is installed ... 
+## with this command 
+#sudo apt-get install postgresql postgresql-contrib libpq-dev pgadmin3
+
+## MANUALLY ENTER THESE COMMANDS >>> 
+
+sudo su - postgres
+#     postgres@ip-172-31-35-248:~$ psql
+#     postgres=#     \du
+
+# # this will show database roles and users 
+
+#     postgres=# CREATE USER ubuntu WITH PASSWORD 'Kelley1960';
+#     postgres=# ALTER USER ubuntu with SUPERUSER;
+
+#     postgres=# \du
+# # should show new user ubuntu ... with Superuser role
+
+#     postgres=# \q 
+# # exits psql
+
+#     postgres@ip-172-31-35-248:~$exit
+
+# # logout  of su should return to $
