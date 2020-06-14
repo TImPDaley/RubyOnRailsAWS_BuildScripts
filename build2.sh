@@ -11,7 +11,7 @@ yarn --version
 
 
 ## INSTALL RAILS latest version 
-gem install rails -v 6.0.2.2
+gem install rails -v 6.0.3
 
 # rails 6.0.2.2 
 rails -v
