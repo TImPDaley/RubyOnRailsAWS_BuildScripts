@@ -11,7 +11,7 @@ sudo su - postgres
 
 # # this will show database roles and users 
 
-#     postgres=# CREATE USER ubuntu WITH PASSWORD 'Kelley1960';
+#     postgres=# CREATE USER ubuntu WITH PASSWORD 'yourpassword';
 #     postgres=# ALTER USER ubuntu with SUPERUSER;
 
 #     postgres=# \du
